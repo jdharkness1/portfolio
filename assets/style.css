@@ -15,6 +15,7 @@
   }
   
   /* Navbar*/
+
   * {
     margin: 0;
     padding: 0;
@@ -74,7 +75,8 @@
     font-weight: var(--bold-font);
   }
 
-  /* Main Image and Text */
+  /* Main Image and Bio */
+
   .main {
     display: flex;
     align-items: center;
@@ -92,7 +94,7 @@
     width: 300px;
     padding: 8px;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow);
   }
   
   .bio h1 {
@@ -105,6 +107,26 @@
   }
 
   /* Contact Info */
+
+  .contact h2 {
+    color: var(--primary-color);
+    margin-left: 1em;
+  }
+  
+  .contact a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  
+  .contact ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  .contact ul li {
+    font-weight: var(--bold-font);
+  }
+
   .contact li {
     display: inline;
     float: left;
@@ -115,3 +137,8 @@
     padding: 10px;
     margin-right: 5px;
 }
+
+.contact a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
