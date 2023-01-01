@@ -1,5 +1,6 @@
 :root {
     --font-family: "Roboto", sans-serf;
+    --font-color: #black;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
@@ -8,6 +9,7 @@
     --secondary-color: #ff357c;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
+    --footer-background:#ff357c25; 
     --bottom-margin: 8px;
     --bottom-margin-2: 16px;
     --line-height: 27px;
@@ -141,4 +143,12 @@
 .contact a:hover {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: var(--footer-background);
+    color: var(--font-color);
   }
