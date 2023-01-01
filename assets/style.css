@@ -89,11 +89,13 @@
   }
 
   .main img {
-    width: 700px;
+    width: 60%;
+    height: auto;
   }
   
   .bio {
-    width: 300px;
+    width: auto;
+    height: auto;
     padding: 8px;
     border-radius: 6px;
     box-shadow: 0px 2px 5px 2px var(--primary-shadow);
@@ -109,16 +111,20 @@
   }
 
   /* Project Boxes */
+  
   .project-boxes {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--section-background);
+    width: 100%;
   }
   
   .project-boxes > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
     font-size: 30px;
+    flex-basis: auto;
   }
 
   /* Contact Info */
