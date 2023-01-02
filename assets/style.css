@@ -18,64 +18,35 @@
   
   /* Navbar*/
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--primary-color);
-  }
-  
-  a:hover {
-    color: var(--secondary-color);
-  }
-  
-  body {
-    font-family: var(--font-family);
-  }
+* {
+  box-sizing: border-box;
+}
 
-  nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 56px;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  }
+.topnav {
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
 
-  nav h1 {
-    color: var(--primary-color);
-  }
-  
-  nav a {
-    color: var(--primary-color);
-    transition: var(--transition);
-  }
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  nav a:hover {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+.topnav a:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
   }
-  
-  nav ul {
-    display: flex;
-    gap: 1.9rem;
-  }
-  
-  nav ul li {
-    font-weight: var(--bold-font);
-  }
+}
 
   /* Main Image and Bio */
 
@@ -83,13 +54,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    max-width: 1100px;
+    gap: 10px;
+    max-width: 2500px;
     margin: auto;
   }
 
   .main img {
-    width: 60%;
+    width: auto;
     height: auto;
   }
   
@@ -110,11 +81,18 @@
     padding: 5px 0;
   }
 
-  /* Project Boxes */
+  /* Projects Section */
+
+  .projects h2 {
+    color: var(--primary-color);
+    margin-left: 1em;
+  }
   
   .project-boxes {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column wrap;
+    align-items: center;
+    justify-content: center;
     background-color: var(--section-background);
     width: 100%;
   }
