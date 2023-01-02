@@ -70,7 +70,7 @@
   .bio {
     width: auto;
     height: auto;
-    min-width: 400px;
+    min-width: 300px;
     padding: 8px;
     border-radius: 6px;
     box-shadow: 0px 2px 5px 2px var(--primary-shadow);
@@ -85,7 +85,7 @@
     padding: 5px 0;
     width: auto;
     height: auto;
-    min-width: 390px;
+    min-width: 2930px;
   }
 
 @media screen and (max-width: 700px) {
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 700px) {
   .main img {   
-    width: 480px;
+    width: 400px;
     height: auto;
   }
 }
