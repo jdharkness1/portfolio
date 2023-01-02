@@ -1,12 +1,14 @@
 # portfolio
-A portfolio for my future assignments. 
+My developer portfolio.
 
+### Description
+A portfolio to showcase my furture work. 
 Features HTML and CSS only, being that's what I've learned so far.
 Placeholder images used in place of work samples.
 
 [Deployed GitPage](https://jdharkness1.github.io/portfolio/)
 
-### Features
+### Elements
 
 - Responsive design using flex boxes and media screens.
 - Compatible and viewable from common devices including smartphones and tablets.
@@ -18,6 +20,4 @@ Placeholder images used in place of work samples.
 ### Credits
 - General design idea - https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#portfolioprojecthowtobuildyourownonlinedeveloperportfolio
 - Created main image using http://www.canva.com
-
-###
 
