@@ -13,7 +13,7 @@
     --bottom-margin: 8px;
     --bottom-margin-2: 16px;
     --line-height: 27px;
-    --transition: 0.3s;
+    --transition: 0.5s;
   }
   
   /* Navbar*/
@@ -39,6 +39,7 @@
 .topnav a:hover {
   background-color: white;
   color: var(--secondary-color);
+  transition: var(--transition);
 }
 
 @media screen and (max-width: 600px) {
@@ -60,7 +61,7 @@
   }
 
   .main img {
-    width: auto;
+    width: 780px;
     height: auto;
   }
   
@@ -87,6 +88,13 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .main img {   
+    width: 480px;
+    height: auto;
+  }
+}
+
   /* Projects Section */
 
   .projects h2 {
@@ -109,6 +117,12 @@
     padding: 5px;
     font-size: 30px;
     flex-basis: auto;
+  }
+
+  @media (max-width: 800px) {
+    .project-boxes {
+      flex-direction: column;
+    }
   }
 
   /* Contact Info */
@@ -145,7 +159,6 @@
 
 .contact a:hover {
     color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
   }
 
   /* Footer */
