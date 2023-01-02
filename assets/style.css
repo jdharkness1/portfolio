@@ -63,7 +63,7 @@
   }
 
   .main img {
-    width: 780px;
+    width: 55%;
     height: auto;
   }
   
@@ -110,7 +110,7 @@
   
   .project-boxes {
     display: flex;
-    flex-wrap: column wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: var(--section-background);
