@@ -6,7 +6,8 @@ A portfolio to showcase my furture work.
 Features HTML and CSS only, being that's what I've learned so far.
 Placeholder images used in place of work samples.
 
-[Deployed GitPage](https://jdharkness1.github.io/portfolio/)
+[Deployed Page](https://jdharkness1.github.io/portfolio/)
+Screenshot 2023-01-03 at 4.35.51 PM.png
 
 ### Elements
 
